@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "userbot"
+version = "0.1.0"
+description = ""
+authors = ["Random <andrey18s@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Pyrogram = "^2.0.106"
+phonenumbers = "^8.13.39"
+python-dotenv = "^1.0.1"
+gspread = "^6.1.2"
+tgcrypto = "^1.2.5"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
